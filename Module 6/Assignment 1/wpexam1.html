@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Web page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 550px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: lightblue;
+      height: 93%;
+
+    }
+        
+    /* On small screens, set height to 'auto' for the grid */
+    @media screen and (max-width: 767px) {
+      .row.content {height: auto;} 
+    }
+    #heading {
+      font-style: normal;
+      border : 2px solid black;
+      text-align: center;
+      font-size: 100px;
+    }
+    .bord {
+      border: 5px solid black;
+      background-color: lightgreen;
+    }
+    #image {
+      border : 3px solid black;
+    }
+    #col {
+      border:2px solid black;
+    }
+    #cspp {
+      border:2px solid black;
+      height: 200px;
+      overflow: scroll;
+      box-shadow: 10px 10px black;
+    }
+    #ads {
+      border:2px solid black;
+      height: 200px;
+      overflow: scroll;
+      box-shadow: 5px 10px black;
+    }
+    #cnf {
+      border:2px solid black;
+      height: 200px;
+    overflow: scroll;
+    box-shadow: 10px 10px black;
+
+    }
+    #cs {
+      border:2px solid black;
+      height: 200px;
+      overflow: scroll;
+      box-shadow: 10px 10px black;
+    }
+    #ics {
+      border:2px solid black;
+      height: 200px;
+      overflow: scroll;
+      box-shadow: 10px 10px black;
+
+    }
+    #dbms {
+      border:2px solid black;
+      height: 200px;
+    overflow: scroll;
+    box-shadow: 10px 10px black;
+    }
+    }
+
+
+  </style>
+</head>
+<body class="bord">
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3">
+      <div id = "image" class="well">
+        <img src="girl.jpg" class="img-circle" height = "200" width = "250">
+        <h2><b><font color ="Green" >Prathyusha Bathula</font></b></h2>
+      </div>
+      <div id = "things" class=col-sm-12>
+      <div class="well">
+          <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><font color="pink">Things to know about me</font>
+          <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+                <li>Pursuing MS in IIIT Hyd</li><li>
+        Btech from Kits,wgl</li>
+        <li>Contact no : 456789567</li>
+        <li>Mail-id:prathyusha@gmail.com</li>
+      </ul>
+          
+          </div>
+      </div>
+    </div>
+    </div>
+    <div id = "col" class="col-sm-9">
+      <div  id= "heading" class="well">
+        <h1><font color= "brown">My Journey So Far</font></h1>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-sm-4">
+          <div id= "cspp" class="well">
+            <h5><b>CSPP</b></h5>
+            <img src = "cspp.jpg" height = "50" width= "200">
+           <p><ul><li>
+          What you enjoyed</li>
+          <li>what could improve</li>
+          <li>Any rants/compliments</li>
+          </ul></p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div  id = "ads" class="well">
+            <h5><b>ADS</b></h5>
+            <img src= "dsa.png" height="50" width = "200">
+            <p><ul><li>
+          What you enjoyed</li>
+          <li>what could improve</li>
+          <li>Any rants/compliments</li>
+          </ul></p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div id = "dbms" class="well">
+            <h5><b>DBMS</b></h5>
+            <img src="dbms.png" height="50" width="200">
+                  <p><ul><li>
+          What you enjoyed</li>
+          <li>what could improve</li>
+          <li>Any rants/compliments</li>
+          </ul></p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div id = "ics" class="well">
+            <h5><b>ICS</b></h5>
+            <img src="ICS.jpg" height="50" width="200">
+                  <p><ul><li>
+          What you enjoyed</li>
+          <li>what could improve</li>
+          <li>Any rants/compliments</li>
+          </ul></p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div id = "cnf" class="well">
+            <h5><b>CNF</b></h5>
+            <img src="cnf.jpg" height = "50" width = "200">
+                  <p><ul><li>
+          What you enjoyed</li>
+          <li>what could improve</li>
+          <li>Any rants/compliments</li>
+          </ul></p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div id = "cs" class="well">
+            <h5><b>CS</b></h5>
+            <img src="Cybersecurity.png" height = "50" width = "200">
+                  <p><ul><li>
+          What you enjoyed</li>
+          <li>what could improve</li>
+          <li>Any rants/compliments</li>
+          </ul></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
