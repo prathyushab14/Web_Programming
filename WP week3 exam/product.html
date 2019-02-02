@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src= "catalog.js"></script>
+	<title>Product catalog</title>
+</head>
+<body>
+	<div class = "container" id="head">
+		<div class="col-sm-9">
+       	<h1 id = "p1"></h1>
+       	<p id = "desc"></p>
+       	<p id = "quan"></p>
+       	<button type="button" class="btn btn-primary" id = 'previous' onclick="prevpressed()">Previous</button>
+       	<button type="button" class="btn btn-primary" id = 'next' onclick="nextpressed()">Next</button>
+       	<button type="button" class="btn btn-primary" id = 'delete' onclick="del()">Delete</button>
+       	<button type="button" class="btn btn-primary" id = 'edit' onclick="edit()">Edit</button>
+
+       	</div>
+       <div class = "col-sm-3">
+        <p id = "img"> 
+    </div>
+
+</body>
+</html>
